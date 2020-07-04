@@ -14,7 +14,6 @@ class Dog
   
   def self.print_all
     @@all.each.collect {|dog| puts dog.name} 
-    binding.pry
   end 
   
   def save
